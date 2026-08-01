@@ -1,0 +1,40 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.softheon.com/
+url: https://trust.softheon.com/
+certifications:
+- SOC 1
+- SOC 2
+- PCI DSS
+- HIPAA
+- FIPS 140-2
+- FISMA Moderate
+- NIST 800-53 Rev. 5
+- Visa Service Provider
+- VPAT
+documents_available:
+- SOC 1 report
+- SOC 2 report
+- HIPAA report
+- PCI DSS report
+- Audit logging information
+- Acceptable Use policy
+- Data Classification policy
+- Data Sanitization policy
+notes: >-
+  Trust center is a hosted portal (trust.softheon.com). Sensitive documents
+  (SOC 1/2, HIPAA, PCI DSS reports and policies) are gated behind an access
+  request. No security contact, responsible-disclosure policy, or bug bounty
+  is published on the trust page.
+evidence:
+- source: https://trust.softheon.com/
+  keywords:
+  - soc 1
+  - soc 2
+  - pci dss
+  - hipaa
+  - fips 140-2
+  - fisma
+  - nist 800-53
+  - trust center
